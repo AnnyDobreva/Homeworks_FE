@@ -1,0 +1,95 @@
+body {
+  margin: 0px;
+  background-image: url(img/background.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 900px;
+}
+#startButton {
+  position: relative;
+  width: 800px;
+  height: 100px;
+  top: 374px;
+  left: 391px;
+  background: #ffffffcc;
+  box-shadow: 5px 8px 9px #0000006e;
+  border-radius: 20px;
+}
+#startButton span {
+  position: absolute;
+  top: 34px;
+  left: 272px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  color: #361157;
+}
+#scoreReactangle {
+  position: relative;
+  display: inline-block;
+  width: 200px;
+  height: 80px;
+  left: 0px;
+  top: 0px;
+  background: #ffffffcc;
+  box-shadow: 5px 8px 9px #0000006e;
+  border-radius: 0px 0px 20px 0px;
+}
+#scoreReactangle span {
+  position: relative;
+  width: 164px;
+  height: 60px;
+  top: 10px;
+  left: 18px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 30px;
+  text-align: center;
+  color: #361157;
+}
+#loadingGameWrapper {
+  position: relative;
+  display: inline-block;
+  width: 1000px;
+  height: 20px;
+  left: 127px;
+  background: #ffffffcc;
+  box-shadow: 5px 8px 9px #0000006e;
+  border-radius: 10px;
+}
+#loadingGameWrapper div {
+  position: absolute;
+  width: 800px;
+  height: 20px;
+  background: #8E44AD;
+  border-radius: 10px;
+}
+#restartButton {
+  position: relative;
+  display: inline-block;
+  width: 100px;
+  height: 80px;
+  top: -10px;
+  left: 292px;
+  background: #ffffffcc;
+  box-shadow: 5px 8px 9px #0000006e;
+  border-radius: 0px 0px 0px 20px;
+}
+#restartButton img {
+  position: relative;
+  left: 23px;
+  top: 17px;
+}
+#cardWrapper {
+  position: absolute;
+  width: 1250px;
+  height: 800px;
+  left: 220px;
+  top: 80px;
+  background: #ffffffcc;
+  box-shadow: 5px 8px 9px #0000006e;
+  border-radius: 10px;
+}
